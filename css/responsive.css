@@ -1,0 +1,137 @@
+/* <----------------------------- 반응형 css start  -----------------------------> */
+@media screen and (min-width: 2560px) {
+    html {
+        font-size: 20px;
+    }
+
+    header {
+        padding: 0 5%; /* 상하 마진 0px, 좌우 마진 5% */
+    }
+
+    footer,
+    .app-logo-title-padding,
+    .sec15-title-container,
+    .sec16-title-container,
+    .sec17-title-container,
+    #section-02,
+    #section-04,
+    #section-05,
+    #section-06,
+    #section-07,
+    #section-08,
+    #section-09,
+    #section-10 {
+        padding: 0 25%; /* 상하 마진 0px, 좌우 마진 25% */
+    }
+
+    .overview-bg {
+        padding-left: 25%;
+    }
+
+    .sec18-container {
+        padding: 15% 25%;
+    }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+    html {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 0 5%; /* 상하 마진 0px, 좌우 마진 5% */
+    }
+
+    footer,
+    .app-logo-title-padding,
+    .sec15-title-container,
+    .sec16-title-container,
+    .sec17-title-container,
+    #section-02,
+    #section-04,
+    #section-05,
+    #section-06,
+    #section-07,
+    #section-08,
+    #section-09,
+    #section-10 {
+        padding: 0 20%; /* 상하 마진 0px, 좌우 마진 15% */
+    }
+
+    .overview-bg {
+        padding-left: 20%;
+    }
+
+    .sec18-container {
+        padding: 15% 20%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+    html {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 0 5%; /* 상하 마진 0px, 좌우 마진 5% */
+    }
+
+    footer,
+    .app-logo-title-padding,
+    .sec15-title-container,
+    .sec16-title-container,
+    .sec17-title-container,
+    #section-02,
+    #section-04,
+    #section-05,
+    #section-06,
+    #section-07,
+    #section-08,
+    #section-09,
+    #section-10 {
+        padding: 0 15%; /* 상하 마진 0px, 좌우 마진 15% */
+    }
+
+    .overview-bg {
+        padding-left: 15%;
+    }
+
+    .sec18-container {
+        padding: 15% 15%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+    html {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 0 5%; /* 상하 마진 0px, 좌우 마진 5% */
+    }
+
+    footer,
+    .app-logo-title-padding,
+    .sec15-title-container,
+    .sec16-title-container,
+    .sec17-title-container,
+    #section-02,
+    #section-04,
+    #section-05,
+    #section-06,
+    #section-07,
+    #section-08,
+    #section-09,
+    #section-10 {
+        padding: 0 10%; /* 상하 마진 0px, 좌우 마진 10% */
+    }
+
+    .overview-bg {
+        padding-left: 10%;
+    }
+
+    .sec18-container {
+        padding: 20% 10%;
+    }
+}
+/*  <----------------------------- 반응형 css end  -----------------------------> */

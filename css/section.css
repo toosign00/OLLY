@@ -1,0 +1,1000 @@
+/* <----------------------------- section-01 css start -----------------------------> */
+.main-img {
+    width: 100%;
+    margin-top: 70px; /* 헤더 높이만큼 여백 추가 */
+}
+/* <----------------------------- section-01 css end -----------------------------> */
+
+
+
+
+/* <----------------------------- section-02 css end -----------------------------> */
+#section-02 {
+    padding: 0 15%;
+}
+.video-container {
+    position: relative;
+    padding-top: 56.25%;
+    width: 100%;
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+}
+/* <----------------------------- section-02 css end -----------------------------> */
+
+
+
+
+/* <----------------------------- section-03 css start -----------------------------> */
+.overview-bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/overviewbg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15%;
+}
+
+.overview-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.overview-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: left;
+    color: var(--purple);
+    margin-bottom: 2rem;
+    
+}
+
+.overview-p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: var(--white);
+}
+
+/* <----------------------------- section-03 css end -----------------------------> */
+
+
+
+
+/* <----------------------------- section-04 css start -----------------------------> */
+#section-04 {
+    padding: 0 15%;
+}
+
+.bg-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-04-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 50px;
+}
+
+.section-04-p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 130px;
+}
+
+.section-04-img {
+    width: 60%;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+    display: block;
+}
+/* <----------------------------- section-04 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-05 css start -----------------------------> */
+#section-05 {
+    padding: 0 15%;
+}
+
+.user-research {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.user-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-box img {
+    width: 90%;
+    margin-bottom: 3rem;
+    box-shadow: 0 0 10px 0 var(--purple);
+    border-radius: var(--radius);
+}
+/* <----------------------------- section-05 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-06 css start -----------------------------> */
+#section-06 {
+    padding: 0 15%;
+}
+
+.insight-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.insight-box {
+    width: 30%;
+    margin: 1rem;
+}
+/* <----------------------------- section-06 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-07 css start -----------------------------> */
+#section-07 {
+    padding: 0 15%;
+}
+
+.persona-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.persona-icon {
+    width: 10%;
+    height: auto;
+    cursor: pointer;
+    filter: brightness(0.5);
+}
+
+.persona-icon.active {
+    filter: brightness(1);
+}
+
+.persona-icon:hover {
+    filter: brightness(1);
+}
+
+.persona-icon img {
+    width: 100%;
+    height: auto;
+}
+
+.section-07-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 50px;
+}
+
+.section-07-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: opacity .5s ease-in-out;
+}
+/* <----------------------------- section-07 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-08 css start -----------------------------> */
+#section-08 {
+    padding: 0 15%;
+}
+
+.section-08-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-08-box-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+
+}
+
+.section-08-box-01 {
+    width: 20%;
+    min-height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+    color: var(--black);
+    margin-right: 2.188rem;
+    margin-bottom: 3.125rem;
+    text-align: center;
+    padding: .625rem;
+    border-radius: 30px;
+}
+
+.section-08-box-01 p {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+
+}
+
+.section-08-box-02 {
+    width: 60%;
+    max-height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    border: solid 1px var(--purple);
+    color: var(--white);
+    margin-bottom: 3.125rem;
+    padding: 3.125rem;
+    border-radius: 30px;
+}
+
+.section-02-box-02 p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* <----------------------------- section-08 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-09 css start -----------------------------> */
+#section-09 {
+    padding: 0 15%;
+}
+
+.swot-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.swot-box-y {
+    flex: 1 1 calc(50% - 2rem); /* 각각의 .swot-box가 2열로 배치되도록 하고, 마진을 고려하여 계산된 width를 설정 */
+    min-height: 300px;
+    background-color: none;
+    border-radius: 20px;
+    border: solid 1px var(--purple);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.swot-box-g {
+    flex: 1 1 calc(50% - 2rem); /* 각각의 .swot-box가 2열로 배치되도록 하고, 마진을 고려하여 계산된 width를 설정 */
+    min-height: 300px;
+    background-color: none;
+    border-radius: 20px;
+    border: solid 1px gray;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.swot-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--purple);
+}
+
+.swot-title-c {
+    font-weight: 700;
+    color: var(--purple);
+}
+
+.swot-content {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
+}
+/* <----------------------------- section-09 css end -----------------------------> */
+
+
+
+
+/* <----------------------------- section-10 css start -----------------------------> */
+#section-10 {
+    padding: 0 15%;
+}
+
+.ia-img {
+    width: 100%;;
+}
+/* <----------------------------- section-10 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-11 css start -----------------------------> */
+.logo-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/logo-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-logo-wir {
+    width: 30%;
+    height: auto;
+}
+
+.app-logo-origin {
+    width: 30%;
+    height: auto;
+}
+
+.app-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3.125rem;
+}
+
+.logo-p {
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+        color: var(--white);
+}
+
+.app-logo-title-padding {
+    width: 100%;
+    padding: 0 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* <----------------------------- section-11 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-12 css start -----------------------------> */
+.design-system-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-t-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-bottom: 3.375rem;
+}
+
+.color-system-img,
+.typeface-system-img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1380px) {
+    .c-t-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+/* <----------------------------- section-12 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-13 css start -----------------------------> */
+.typeface-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.typeface-title {
+    width: 30%;
+    font-size: 8.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: var(--pink);
+}
+
+.typeface-p-c {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.typeface-p-01 {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.typeface-p-02 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.typeface-p-03 {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.typeface-p-04 {
+    font-size: 25px;
+    font-weight: 100;
+    text-align: left;
+}
+/* <----------------------------- section-13 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-14 css start -----------------------------> */
+.icon-img {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+/* <----------------------------- section-14 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-15 css start -----------------------------> */
+#section-15 {
+    position: relative;
+    width: 100%;
+    height: 135vh;
+    background-image: url(../image/circle_bg.svg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 400px;
+}
+
+.sec15-title-container {
+    width: 100%;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sec15-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: left;
+    color: var(--purple);
+    margin-bottom: 50px;
+}
+
+.sec15-p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: var(--white);
+}
+
+.mockup-container {
+    width: 100%;
+    height: auto;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: -5%;
+}
+
+.sec15-img {
+    width: 20%;
+    height: auto;
+}
+
+.sec15-img:nth-of-type(2) {
+    margin-top: 5%;
+}
+
+.sec15-img:nth-of-type(3) {
+    margin-top: 10%;
+}
+/* <----------------------------- section-15 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-16 css start -----------------------------> */
+#section-16 {
+    position: relative;
+    width: 100%;
+    height: 135vh;
+    background-image: url(../image/circle_bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 400px;
+}
+
+.sec16-title-container {
+    width: 100%;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sec16-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: left;
+    color: var(--purple);
+    margin-bottom: 50px;
+}
+
+.sec16-p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: var(--white);
+}
+
+.mockup-container-2 {
+    width: 100%;
+    height: auto;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.sec16-img {
+    width: 20%;
+    height: auto;
+}
+
+.sec16-img:nth-of-type(2) {
+    margin-top: -5%;
+}
+/* <----------------------------- section-16 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-17 css start -----------------------------> */
+.sec17-title-container {
+    width: 100%;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sec17-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: left;
+    color: var(--purple);
+    margin-bottom: 50px;
+}
+
+.sec17-p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: var(--white);
+}
+
+.loop-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.loop-wrapper {
+    display: flex;
+    white-space: nowrap;
+    gap: 2rem;
+}
+
+.loop-img {
+    width: 18%;
+    flex-shrink: 0;
+}
+
+/* <----------------------------- section-17 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-18 css start -----------------------------> */
+#section-18 {
+    width: 100%;
+    height: 150vh;
+    background-image: url(../image/bg_last2.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sec18-container {
+    width: 100%;
+    padding: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.sec18-logo {
+    width: 15rem;
+    height: auto;
+}
+
+.sec18-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: left;
+    color: var(--purple);
+    margin-bottom: 35px;
+}
+
+.sec18-p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 35px;
+}
+
+.canvas-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.canvas-img {
+    width: 10rem;
+}
+
+/* <----------------------------- section-18 css end -----------------------------> */
+.watch-bg {
+    width: 100%;
+    height: 150vh;
+    margin: 0;
+    background-image: url(../image/watch_bg2.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+}
+
+.watch-text {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.watch-text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.watch-title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: left;
+    color: var(--purple);
+    margin-bottom: 50px;
+}
+
+.watch-sub-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.watch-p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.slider-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    overflow: hidden;
+    transition: transform .5s ease-in-out;
+}
+
+.slider-img-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transition: transform .5s ease-in-out;
+}
+
+.slider-img {
+    width: 100%;
+    height: auto;
+    margin-left: 52%;
+    transition: transform .5s ease-in-out;
+}
+
+.slider-img:first-of-type {
+    margin-left: 0;
+}
+
+.slider-btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.slider-btn {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+.slider-btn.active {
+    background-color: var(--purple);
+}
+
+/* <----------------------------- section-19 css start -----------------------------> */
+#section-19 {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background-image: url(../image/circle_liner.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 400px;
+    padding: 0 15%;
+}
+
+.sec19-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.video-3d-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.video-3d {
+    width: 100%;
+    height: auto;
+}
+
+.video-3d-p {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    color: var(--white);
+    padding: 2rem 0;
+}
+
+.image-3d {
+    width: 30%; /* 남은 공간을 30%로 설정 */
+    height: auto;
+    object-fit: cover; /* 이미지가 컨테이너에 가득 차도록 설정 */
+}
+
+.section19-title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: left;
+    color: var(--purple);
+    margin-bottom: 50px;
+}
+
+.section19-sub-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+/* <----------------------------- section-19 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-20 css start -----------------------------> */
+#section-20 {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background-image: url(../image/circle_liner_2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 400px;
+    padding: 0 15%;
+}
+/* <----------------------------- section-20 css end -----------------------------> */
+
+
+
+/* <----------------------------- section-21 css start -----------------------------> */
+.sec-21-img {
+    width: 100%;
+}
+
+
+#section-22 {
+    padding: 0 15%;
+}
+
+.sec-22-main-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3.125rem;
+}
+
+.section-22-p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 2rem;
+}
+
+.section-22-link {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 2rem;
+    text-decoration: underline; 
+}
+
+.section-22-link:hover {
+    color: var(--purple);
+}
+/* 코드가 좀 더러운데 이해 부탁드리겠습니다 */

@@ -1,0 +1,78 @@
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0 15%; /* 상하 마진 0px, 좌우 마진 175px */
+    margin-top: 3.125rem;
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12.5rem;
+    gap: 8rem;
+}
+
+.card {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white);
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 1.25rem;
+}
+
+.card p {
+    font-weight: 600;
+    color: var(--white);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.card p:first-child {
+    font-size: 1.2rem;
+    margin-bottom: 1.875rem;
+}
+
+.card p:last-child {
+    font-size: 0.875rem;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--purple);
+    margin-bottom: 0.938rem;
+}
+
+.card-img {
+    width: 100%;
+    margin-bottom: 1.563rem;
+}
+
+.final-text {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 1.25rem;
+}
+
+.copyright-text {
+    font-size: 0.875rem;
+    color: var(--white);
+    margin-bottom: 7.5rem;
+}
